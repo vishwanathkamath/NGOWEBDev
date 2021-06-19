@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="styling.css">
+    <title>Simple Interest Calculator</title>
+</head>
+
+<body id="bd">
+    <script src="simpleInterestCalculator.js"></script>
+    <div class="container">
+    
+    <h1>
+        Simple Interest Calculator
+    </h1>
+    <table>
+    <tr>
+        <td><label for="savingAmount">Amount</label></td>
+        
+        <td><input type="number" id="savingAmount" name="savingAmount"></td>
+        
+     </tr>
+     <tr>
+       <td> <label for="interestValue">Interest Rate:</label></td>
+        
+      <td>  <input id="interestValue" type="range" min="0" max="100" class="slider"/></td>
+        
+       <td> <label class="range" for="range" id="ranger">0</label></td>
+     </tr>
+    <tr>
+       <td> <label for="numberofYears">No. of years:</label></td>
+       <td> <input type="number" name="numberofYears" id="numberofYears" min="1" max="100"></td>
+    </tr>
+<tr>
+        <td><button onclick="calculate()">
+            Compute Interest
+        </button></td>
+       <td> <button onclick="reset()">
+            Reset
+        </button></td>
+</tr>
+
+<tr>
+    <div id="slider">
+    <input class="bar" type="range" id="rangeinput" min="1" max="25" value="1" onchange=trig(rangevalue.value)/>
+    <span class="highlight"></span>
+    <output id="rangevalue">1</output>
+</div>
+    <td>  <input id="interestValuew" type="range" min="0" max="100" class="slider" onchange= trig()/></td>
+</tr>
+    </table>
+        <br><br>
+        <label id="output1"></label>
+        <br>
+        <label id="output2"></label>
+        <br>
+        <label id="output3"></label>
+        <br>
+        <label id="output"></label>
+
+        <br>
+    </div>
+</body>
+</html>
