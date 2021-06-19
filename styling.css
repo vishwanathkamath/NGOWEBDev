@@ -1,0 +1,122 @@
+body {
+  background-color: black
+}
+
+p {
+  font-family: arial;
+  font-size: 15px;
+  color: white;
+}
+
+h1{
+    font-family: verdana;
+    color: grey;
+    text-align: center;
+}
+
+label {
+    font-family: verdana;
+    color: grey;
+    text-align: right;
+}
+
+button {
+    font-family: verdana;
+    font-size: 15px;
+    color: rgb(0,0,0);
+    background-color: grey;
+    text-align:center;
+    margin: 18px 0;
+
+}
+
+input {
+  font-family: times;
+  font-size: 15px;
+  color: rgb(255,0,0);
+  background-color: lightblue;
+  text-align: right;
+}
+
+form {
+  margin: auto;
+  background-color: white;
+  width: 50%;
+  border: 3px solid grey;
+  padding: 10px;
+  vertical-align: middle;
+  border-radius: 25px;
+  border: 2px solid grey;
+  
+}
+
+head {
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 25px;
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+ 
+  height: 8.4px;
+  cursor: pointer;
+  background: white;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background: grey;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]::-moz-range-track {
+
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: white;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+
+.container {
+  width: 50%;
+  height: 100%;
+  clear: both;
+  
+  margin: auto;
+  background-color: white;
+  border: 3px solid grey;
+  padding: 10px;
+  vertical-align: middle;
+  border-radius: 25px;
+}
+
+.container input {
+  width: 100%;
+  height: 100%;
+  clear: both;
+}
